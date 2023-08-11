@@ -19139,9 +19139,12 @@ ul.follow-social li a {
 
 @media (max-width: 991px) {
   .my-image {
-    height: 750px;
+    height: 400px;
     overflow: hidden;
     margin-top: 2rem;
+  }
+  .my-image,.img-fluid {
+    max-width: 70% !important;
   }
 }
 
@@ -19160,8 +19163,11 @@ ul.follow-social li a {
     line-height: 45px;
   }
   .my-image {
-    height: 650px;
+    height: 350px;
     margin-top: 2rem;
+  }
+  .my-image,.img-fluid {
+    max-width: 80% !important;
   }
 }
 
@@ -19171,8 +19177,11 @@ ul.follow-social li a {
     line-height: 40px;
   }
   .my-image {
-    height: 480px;
+    height: 350px;
     margin-top: 2rem;
+  }
+  .my-image,.img-fluid {
+    max-width: 90% !important;
   }
 }
 
